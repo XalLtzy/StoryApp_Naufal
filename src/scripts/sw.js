@@ -1,11 +1,12 @@
-const CACHE_NAME = 'storyapp-cache-v1';
+const BASE_PATH = '/StoryApp_Naufal';
+
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/app.bundle.js',
-  '/app.css', 
-  '/icons/icon-192x192.png',
-  '/icons/icon-512x512.png',
+  `${BASE_PATH}/`,
+  `${BASE_PATH}/index.html`,
+  `${BASE_PATH}/app.bundle.js`,
+  `${BASE_PATH}/app.css`, 
+  `${BASE_PATH}/icons/icon-192x192.png`,
+  `${BASE_PATH}/icons/icon-512x512.png`,
 ];
 
 self.addEventListener('install', (event) => {
